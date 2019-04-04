@@ -83,7 +83,10 @@
       <string>production</string>
     </config-file>
 
-    <framework src="OneSignal" type="podspec" spec="2.9.4" />
+    <pods-config ios-min-version="9.0" use-frameworks="true" />
+    <pod name="OneSignal" version="2.9.4" />
+    <dependency id="cordova-plugin-cocoapod-support" version="1.3.0" />
+      
     <header-file src="src/ios/OneSignalPush.h" />
     <source-file src="src/ios/OneSignalPush.m" />
 
